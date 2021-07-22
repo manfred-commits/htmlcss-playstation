@@ -8,6 +8,9 @@
 .secondary_btn_color{
     background-color: #cd3d0f;
 }
+.tertiary_btn_color{
+ background-color: #2d64e6;
+}
 .standard_btn{
     padding: 5px 10px;
     font-weight: 500;    
@@ -19,6 +22,11 @@
 }
 .secondary_text_color{
     color: white;
+}
+h6{
+    font-size: 13px;
+    font-weight: 600;
+    color: #2284d4;
 }
 /* /general rules */
 /* header section */
@@ -89,6 +97,29 @@ margin-top: 100px;
     margin: 10px 0;
 }
 /* /bottom hero sec*/
+
+/* console sec */
+.console_sec{
+    padding: 20px 0;
+}
+/* top part of the console sec */
+.top_console_sec{
+    padding: 0 0 30px;
+    
+}
+/* /top part of the console sec */
+
+/* bottom part of the console sec */
+.medium_console_formatting{
+    padding: 20px 0 0;
+}
+.medium_console_formatting img{
+    width: 100%;
+    object-fit: contain;
+}
+/* /bottom part of the console sec */
+/* /console sec */
+
 
 /* hero sec */
 /* /main section  */
