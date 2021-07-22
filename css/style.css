@@ -252,4 +252,25 @@ margin-top: 100px;
 }
 /* /playstation plus section */
 
+/* discount section */
+.discount_sec{
+    padding: 50px 0;
+}
+/* top discount */
+.top_disount{
+    padding: 50px 0 40px;
+}
+/* /top discount */
+
+/* bottom discount */
+.bottom_discount img{
+    width: 100%;
+    padding: 0 0 40px;
+    object-fit: contain;
+    object-position: center;
+}
+/* /bottom discount */
+
+/* /discount section */
+
 /* /main section  */
