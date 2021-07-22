@@ -2,7 +2,6 @@
 *{
     font-family: Arial, sans-serif;
 }
-/* /general rules */
 .primary_btn_color{
     background-color:#363636;
 }
@@ -21,6 +20,7 @@
 .secondary_text_color{
     color: white;
 }
+/* /general rules */
 /* header section */
 header{
     position: fixed;
@@ -43,7 +43,7 @@ header{
 .primary_btn_formatting{
     margin: 0px 15px;
 }
-/* header top section */
+/* /header top section */
 /* header bottom section */
 nav{
     height: 60px;
@@ -54,7 +54,7 @@ nav{
 nav form a i{
     font-size: 18px;
 }
-/* header bottom section */
+/* /header bottom section */
 /* /header section */
 
 /* main section  */
@@ -62,7 +62,8 @@ main{
 margin-top: 100px;
 }
 /* hero sec */
-.hero_sec{
+/* top hero sec */
+.hero_sec_top{
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-position:top center;
@@ -75,5 +76,18 @@ margin-top: 100px;
     padding: 10px 0;
     object-fit: contain;
 }
+/* /top hero sec */
+
+/* bottom hero sec*/
+.bottom_hero_sec{
+    padding: 30px 0;
+}
+.bottom_hero_sec img{
+    width: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+/* /bottom hero sec*/
+
 /* hero sec */
 /* /main section  */
