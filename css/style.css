@@ -6,27 +6,48 @@
 .primary_btn_color{
     background-color:#363636;
 }
+.secondary_btn_color{
+    background-color: #cd3d0f;
+}
 .standard_btn{
     padding: 5px 10px;
-    margin: 0px 15px;
+    font-weight: 500;    
     color: white;
-    border: 1px solid #363636;
+    border: 0;
 }
 .primary_text_color{
     color: black;
 }
+.secondary_text_color{
+    color: white;
+}
 /* header section */
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
 /* header top section */
 .header_top{
-    background-color: black;
+    background-color: black; 
+    height: 40px;   
+
 }
 .header_top .container-fluid .row img{
     width: 100px;
     padding: 10px 0;
     object-fit: contain;
 }
+.primary_btn_formatting{
+    margin: 0px 15px;
+}
 /* header top section */
 /* header bottom section */
+nav{
+    height: 60px;
+}
 .nav_formatting{
     padding: 0px 10px;
 }
@@ -34,10 +55,25 @@ nav form a i{
     font-size: 18px;
 }
 /* header bottom section */
-
-
 /* /header section */
 
 /* main section  */
-
+main{
+margin-top: 100px;
+}
+/* hero sec */
+.hero_sec{
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position:top center;
+}
+.hero_container{
+    padding:300px 0 50px;
+}
+.hero_container img{
+    width: 200px;
+    padding: 10px 0;
+    object-fit: contain;
+}
+/* hero sec */
 /* /main section  */
