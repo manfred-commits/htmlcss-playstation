@@ -109,7 +109,7 @@ margin-top: 100px;
 }
 /* /top part of the console sec */
 
-/* bottom part of the console sec */
+/* medium part of the console sec */
 .medium_console_formatting{
     padding: 20px 0 0;
 }
@@ -117,7 +117,29 @@ margin-top: 100px;
     width: 100%;
     object-fit: contain;
 }
+/* /medium part of the console sec */
+/* bottom part of the console sec */
+.bottom_console_sec{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.bottom_console_sec .container_console{
+    width: calc((100% / 5) - 20px);
+}
+.bottom_console_sec .container_console a{
+    text-decoration: none;
+}
+.bottom_console_sec .container_console img{
+    width: 100px;
+    padding: 0 10px;
+    object-fit: contain;
+}
+.bottom_console_sec .container_console h5{
+    font-size: 16px;
+}
 /* /bottom part of the console sec */
+
 /* /console sec */
 
 
