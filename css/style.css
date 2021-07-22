@@ -14,6 +14,9 @@
 .fourth_background_color{
     background-color: #1f1f1f;
 }
+.fifth_background_color{
+    background-color: #d9dadc;
+}
 .standard_btn{
     padding: 5px 10px;
     font-weight: 500;    
@@ -25,6 +28,9 @@
 }
 .secondary_text_color{
     color: white;
+}
+.tertiary_text_color{
+    color: #396ce5;
 }
 h6{
     font-size: 13px;
@@ -100,6 +106,7 @@ margin-top: 100px;
     margin: 10px 0;
 }
 /* /bottom hero sec*/
+/* hero sec */
 
 /* console sec */
 .console_sec{
@@ -198,8 +205,51 @@ margin-top: 100px;
     font-weight: 700;
 }
 /* /arrivals bottom */
-
 /* arrivals section */
 
-/* hero sec */
+/* ps4 section */
+/* top ps4 sec */
+.ps4_sec h2{
+    margin-bottom: 20px;
+}
+.ps4_sec span{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 15px;
+}
+.top_ps4_sec{
+    padding: 70px 0 30px;
+}
+/* /top ps4 sec */
+/* bottom ps4 sec */
+.ps4_sec .container .row img{
+    width: 100%;
+    object-fit: contain;
+}
+/* bottom ps4 sec */
+.bottom_ps4{
+    padding-bottom: 70px;
+}
+/* /ps4 section */
+
+/* playstation plus section */
+.plus_sec{
+    background-color: #bebcbb;
+}
+.plus_sec .hero_container{
+    padding: 60px 0 50px;
+}
+.plus_sec .hero_container img {
+    width: 50%;
+    padding: 10px 0;
+    object-fit: contain;
+}
+#playstation_plus{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+/* /playstation plus section */
+
 /* /main section  */
