@@ -11,6 +11,9 @@
 .tertiary_btn_color{
  background-color: #2d64e6;
 }
+.fourth_background_color{
+    background-color: #1f1f1f;
+}
 .standard_btn{
     padding: 5px 10px;
     font-weight: 500;    
@@ -189,6 +192,13 @@ margin-top: 100px;
     padding: 10px 0;
     object-fit: contain;
 }
+/* arrivals bottom */
+#bottom_arrivals .container .row h5{
+    font-size: 15px;
+    font-weight: 700;
+}
+/* /arrivals bottom */
+
 /* arrivals section */
 
 /* hero sec */
