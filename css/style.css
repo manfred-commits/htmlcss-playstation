@@ -1,0 +1,43 @@
+/* general rules */
+*{
+    font-family: Arial, sans-serif;
+}
+/* /general rules */
+.primary_btn_color{
+    background-color:#363636;
+}
+.standard_btn{
+    padding: 5px 10px;
+    margin: 0px 15px;
+    color: white;
+    border: 1px solid #363636;
+}
+.primary_text_color{
+    color: black;
+}
+/* header section */
+/* header top section */
+.header_top{
+    background-color: black;
+}
+.header_top .container-fluid .row img{
+    width: 100px;
+    padding: 10px 0;
+    object-fit: contain;
+}
+/* header top section */
+/* header bottom section */
+.nav_formatting{
+    padding: 0px 10px;
+}
+nav form a i{
+    font-size: 18px;
+}
+/* header bottom section */
+
+
+/* /header section */
+
+/* main section  */
+
+/* /main section  */
