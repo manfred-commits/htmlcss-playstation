@@ -77,6 +77,16 @@ nav{
 nav form a i{
     font-size: 18px;
 }
+/* down chevron arrow switch */
+nav .dropdown-toggle::after{
+    content: url(../img/chevron-down-solid.svg);
+    border:none;
+    display: inline-block;
+    vertical-align: middle;
+    width: 10px;
+}
+/* /down chevron arrow switch */
+
 /* /header bottom section */
 /* /header section */
 
