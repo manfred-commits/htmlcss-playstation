@@ -315,6 +315,7 @@ margin-top: 100px;
 /* footer section */
 footer{
     background-color: #00439c;
+    padding: 60px 0;
 }
 /* footer top */
 .footer_top{
@@ -322,9 +323,12 @@ footer{
 }
 .footer_top img{
     margin-bottom: 20px;
+    object-fit: contain;
+    width: 100px;
+    padding-bottom: 10px;
 }
 .footer_top span{
-    font-weight: 500;
+    font-weight: 600;
 }
 .footer_top ul{
     list-style: none;
@@ -338,4 +342,15 @@ footer{
     font-weight: 600;
 }
 /* /footer top */
+/* footer bottom */
+.footer_bottom img{
+    object-fit: contain;
+    width: 120px;
+    padding-bottom: 10px;
+}
+.footer_bottom a {
+    color: white;
+}
+/* /footer bottom */
+
 /* /footer section */
