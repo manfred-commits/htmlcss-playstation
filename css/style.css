@@ -308,9 +308,34 @@ margin-top: 100px;
     object-position: center;
     padding: 0 10px;
 }
-
 /* /social section */
 
-
-
 /* /main section  */
+
+/* footer section */
+footer{
+    background-color: #00439c;
+}
+/* footer top */
+.footer_top{
+    padding: 60px 0 0;
+}
+.footer_top img{
+    margin-bottom: 20px;
+}
+.footer_top span{
+    font-weight: 500;
+}
+.footer_top ul{
+    list-style: none;
+}
+.footer_top ul li{
+    padding: 5px 0;
+}
+.footer_top ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+/* /footer top */
+/* /footer section */
