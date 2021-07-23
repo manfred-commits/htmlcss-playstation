@@ -102,6 +102,10 @@ margin-top: 100px;
 /* /top hero sec */
 
 /* bottom hero sec*/
+.spaced_border{
+    padding: 2px;
+    border: 3px solid #4095da;
+}
 .bottom_hero_sec{
     padding: 30px 0;
 }
@@ -150,7 +154,7 @@ margin-top: 100px;
     margin:0 10px;
 }
 .special_border_btm{
-    border-bottom: 2px solid #4095da;
+    border-bottom: 3px solid #4095da;
 }
 .container_console a{
     text-decoration: none;
