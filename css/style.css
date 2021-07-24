@@ -26,6 +26,23 @@
     color: white;
     border: 0;
 }
+.primary_border_color{
+    border: 3px solid #363636;
+}
+.secondary_border_color{
+    border: 3px solid #cd3d0f;
+}
+.tertiary_border_color{
+    border: 3px solid #2d64e6;
+}
+.fourth_border_color{
+    border: 3px solid white;
+}
+.inner_border {    
+    box-shadow: inset 0px 0px 0px 2px transparent;
+    box-sizing: border-box; 
+    transition: box-shadow .5s ease-in-out;
+}
 .primary_text_color{
     color: black;
 }
@@ -88,6 +105,13 @@ nav .dropdown-toggle::after{
 /* /down chevron arrow switch */
 
 /* /header bottom section */
+/* hover effects */
+#login_btn:hover {
+    box-shadow: inset 0px 0px 0px 2px white;    
+    opacity: 0.8;
+}
+/* /hover effects */
+
 /* /header section */
 
 /* main section  */
@@ -110,6 +134,12 @@ padding-top: 100px;
     object-fit: contain;
 }
 /* /top hero sec */
+/* top hero hovers */
+.hero_sec_top button.inner_border:hover {
+    box-shadow: inset 0px 0px 0px 2px black;
+    transition: 1.5s;
+}
+/* top hero hovers */
 
 /* bottom hero sec*/
 .spaced_border{
@@ -124,8 +154,15 @@ padding-top: 100px;
     border-radius: 15px;
     object-fit: cover;
     margin: 10px 0;
+    transition: transform 0.5s ease-in-out;
 }
 /* /bottom hero sec*/
+/* bottom hover effects */
+.animation:hover {    
+    transform: translateY(-10px);    
+    animation-fill-mode:forwards;
+}
+/* /bottom hover effects */
 /* hero sec */
 
 /* console sec */
@@ -174,6 +211,13 @@ padding-top: 100px;
     padding: 40px 40px 20px;
     object-fit: contain;
 }
+.bottom_console_sec .container_console{
+    opacity: 0.7;
+    transition: opacity .3s ease-in-out;
+}
+.bottom_console_sec .container_console.special_border_btm{
+    opacity: 1;  
+}
 .bottom_console_sec .container_console h5{
     font-size: 16px;
 }
@@ -206,6 +250,15 @@ padding-top: 100px;
 }
 /* /console media queries */
 
+/* console hovers */
+.bottom_console_sec .container_console:hover{
+    opacity: 1;
+    transition: 2s;
+}
+.bottom_console_sec .container_console a:hover{
+    color: black;
+}
+/* /console hovers */
 /* /console sec */
 
 /* arrivals section */
@@ -228,6 +281,12 @@ padding-top: 100px;
     font-weight: 700;
 }
 /* /arrivals bottom */
+/* top hero hovers */
+.arrivals_top button.inner_border:hover {
+    box-shadow: inset 0px 0px 0px 2px black;
+    transition: 1.5s;
+}
+/* top hero hovers */
 /* arrivals section */
 
 /* ps4 section */
@@ -256,6 +315,13 @@ padding-top: 100px;
 .bottom_ps4{
     padding-bottom: 70px;
 }
+/* bottom ps4 sec */
+
+/* bottom ps4 hovers */
+.bottom_ps4 button.inner_border:hover {
+    box-shadow: inset 0px 0px 0px 2px white;   
+}
+/* /bottom ps4 hovers  */
 /* /ps4 section */
 
 /* playstation plus section */
@@ -276,6 +342,16 @@ padding-top: 100px;
     object-fit: cover;
     object-position: center;
 }
+.plus_sec button{
+    border: 1px solid transparent;
+    transition: ease-in-out .5s;
+}
+/* playstation plus hovers */
+.plus_sec button:hover{
+    border: 1px solid white;
+    box-shadow: 0 4px 10px 0 rgba(295, 295, 295, 0.2), 0 6px 20px 0px rgba(295, 295, 295, 0.19);
+}
+/* /playstation plus hovers */
 /* /playstation plus section */
 
 /* discount section */
@@ -316,6 +392,11 @@ padding-top: 100px;
     object-fit: cover;
     object-position: center;
 }
+/* /playstation now hover */
+.now_sec button.inner_border:hover {
+    box-shadow: inset 0px 0px 0px 2px black;
+}
+/* /playstation now hover */
 /* /now section */
 
 /* social section */
