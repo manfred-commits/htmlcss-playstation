@@ -137,7 +137,6 @@ padding-top: 100px;
 /* top hero hovers */
 .hero_sec_top button.inner_border:hover {
     box-shadow: inset 0px 0px 0px 2px black;
-    transition: 1.5s;
 }
 /* top hero hovers */
 
@@ -187,6 +186,11 @@ padding-top: 100px;
     width: 100%;
     object-fit: contain;
 }
+/* medium console sec hovers */
+.medium_console_formatting button.inner_border:hover{
+    box-shadow: inset 0px 0px 0px 2px white;
+}
+/* /medium console sec hovers */
 /* /medium part of the console sec */
 /* bottom part of the console sec */
 .bottom_console_sec{
@@ -251,6 +255,7 @@ padding-top: 100px;
 /* /console media queries */
 
 /* console hovers */
+
 .bottom_console_sec .container_console:hover{
     opacity: 1;
     transition: 2s;
