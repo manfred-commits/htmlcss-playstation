@@ -69,6 +69,9 @@ header{
     width: 100%;
     z-index: 10;
 }
+.bg-light {
+    background-color: white!important;
+}
 /* header top section */
 .header_top{
     background-color: black; 
@@ -93,6 +96,45 @@ nav{
 }
 nav form a i{
     font-size: 18px;
+}
+/* bonus bonus dropdown */
+.dropdown-menu[data-bs-popper] {
+    top: 100px;
+    left: 0;
+    right: 0;
+    margin-top: 0;
+    border: 0;
+    /* background-color: #f8f9fa; */
+    text-align: center;
+}
+.dropdown-menu[data-bs-popper] img{
+    width: 80px;
+    margin:0 10px;
+}
+.dropdown-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dropdown-menu[data-bs-popper] h5{
+    font-size: 18px;
+}
+.dropdown-menu[data-bs-popper] ul{
+    display: flex;
+    list-style: disc;
+    color: #0a58ca;
+}
+.dropdown-menu[data-bs-popper] ul li{
+    margin: 0 20px;
+}
+.dropdown-menu[data-bs-popper] ul li h5{
+    color: black;
+    font-size: 16px;
+}
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        position: fixed;
+    }
 }
 /* down chevron arrow switch */
 nav .dropdown-toggle::after{
