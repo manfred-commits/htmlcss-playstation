@@ -91,6 +91,10 @@ header{
 nav{
     height: 60px;
 }
+.navbar{
+    padding-top: 0;
+    padding-bottom: 0;
+}
 .nav_formatting{
     padding: 0px 10px;
 }
